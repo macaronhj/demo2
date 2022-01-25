@@ -68,6 +68,6 @@ public class DemoController {
 
     public static void main(String arg[]) {
         System.out.println("깃허브 테스트용입니다. by rungjae");
-        System.out.println("현재시간은 1/25 22:07 by rungjae");
+        System.out.println("현재시간은 1/25 22:18 by rungjae");
     }
 }
