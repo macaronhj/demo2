@@ -17,7 +17,7 @@ public class DemoController {
     @GetMapping(value = "/demo")
     public ModelAndView demo(ModelAndView mv, String id){
         log.info("?????????????????????123467890");
-        System
+
         String name = "";
         if(id.equals("liu")){
             name = "김연우";
@@ -68,5 +68,6 @@ public class DemoController {
 
     public static void main(String arg[]) {
         System.out.println("깃허브 테스트용입니다. by rungjae");
+        System.out.println("현재시간은 1/25 22:07 by rungjae");
     }
 }
