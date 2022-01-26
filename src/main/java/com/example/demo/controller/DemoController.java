@@ -16,7 +16,7 @@ public class DemoController {
     //@RequestMapping(value = "/demo" , method = RequestMethod.GET)
     @GetMapping(value = "/demo")
     public ModelAndView demo(ModelAndView mv, String id){
-        log.info("내가내가내가내가내가내가내가내가 수정!");
+        log.info("내가내가내가내가내가내가내가내 22222222222!");
 
         String name = "";
         if(id.equals("liu")){
